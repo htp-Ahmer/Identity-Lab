@@ -1,1602 +1,202 @@
 [
-  {
-    "id": 1,
-    "question": "When you enter a crowded room, people usually:",
-    "options": [
-      "Look away quickly",
-      "Stare at me",
-      "Smile politely",
-      "Don't notice me"
-    ],
-    "weight": [
-      1,
-      2,
-      3,
-      4
-    ]
-  },
-  {
-    "id": 2,
-    "question": "Your friend introduces you to someone new. You give off:",
-    "options": [
-      "Mysterious energy",
-      "Warm and welcoming",
-      "Intimidating vibes",
-      "Awkward silence"
-    ],
-    "weight": [
-      4,
-      1,
-      2,
-      3
-    ]
-  },
-  {
-    "id": 3,
-    "question": "You're walking down the street and make eye contact. You:",
-    "options": [
-      "Look at the ground",
-      "Smile and nod",
-      "Hold the gaze",
-      "Look right through them"
-    ],
-    "weight": [
-      1,
-      3,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 4,
-    "question": "Someone tries to interrupt you while you speak. You:",
-    "options": [
-      "Stop talking",
-      "Raise your volume",
-      "Wait and continue",
-      "Silence them with a look"
-    ],
-    "weight": [
-      3,
-      1,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 5,
-    "question": "You wear an outfit you've never tried before. You feel:",
-    "options": [
-      "Like an imposter",
-      "Okay I guess",
-      "Comfortable",
-      "Like I own the place"
-    ],
-    "weight": [
-      2,
-      3,
-      4,
-      1
-    ]
-  },
-  {
-    "id": 6,
-    "question": "Your natural resting face says:",
-    "options": [
-      "Please don't talk to me",
-      "I'm lost",
-      "I'm approachable",
-      "I know something you don't"
-    ],
-    "weight": [
-      3,
-      1,
-      2,
-      4
-    ]
-  },
-  {
-    "id": 7,
-    "question": "When you post a new photo, the comments usually say:",
-    "options": [
-      "Cute!",
-      "Looking good",
-      "Obsessed",
-      "Literal royalty"
-    ],
-    "weight": [
-      3,
-      2,
-      1,
-      4
-    ]
-  },
-  {
-    "id": 8,
-    "question": "You have to give a presentation. Your vibe is:",
-    "options": [
-      "Nervous wreck",
-      "Reading from notes",
-      "Engaging the room",
-      "Commanding the stage"
-    ],
-    "weight": [
-      4,
-      2,
-      1,
-      3
-    ]
-  },
-  {
-    "id": 9,
-    "question": "Someone compliments you out of nowhere. You:",
-    "options": [
-      "Get flustered",
-      "Say thank you",
-      "Compliment them back",
-      "Say 'I know'"
-    ],
-    "weight": [
-      2,
-      3,
-      1,
-      4
-    ]
-  },
-  {
-    "id": 10,
-    "question": "You walk into a party where you know nobody. You:",
-    "options": [
-      "Hide in the corner",
-      "Find the host",
-      "Introduce yourself",
-      "Wait for them to come"
-    ],
-    "weight": [
-      2,
-      4,
-      1,
-      3
-    ]
-  },
-  {
-    "id": 11,
-    "question": "In a specific scenario: When you enter a crowded room, people usually:",
-    "options": [
-      "Look away quickly",
-      "Stare at me",
-      "Smile politely",
-      "Don't notice me"
-    ],
-    "weight": [
-      1,
-      3,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 12,
-    "question": "In a specific scenario: Your friend introduces you to someone new. You give off:",
-    "options": [
-      "Mysterious energy",
-      "Warm and welcoming",
-      "Intimidating vibes",
-      "Awkward silence"
-    ],
-    "weight": [
-      4,
-      2,
-      3,
-      1
-    ]
-  },
-  {
-    "id": 13,
-    "question": "In a specific scenario: You're walking down the street and make eye contact. You act like:",
-    "options": [
-      "Look at the ground",
-      "Smile and nod",
-      "Hold the gaze",
-      "Look right through them"
-    ],
-    "weight": [
-      1,
-      3,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 14,
-    "question": "In a specific scenario: Someone tries to interrupt you while you speak. You act like:",
-    "options": [
-      "Stop talking",
-      "Raise your volume",
-      "Wait and continue",
-      "Silence them with a look"
-    ],
-    "weight": [
-      1,
-      4,
-      2,
-      3
-    ]
-  },
-  {
-    "id": 15,
-    "question": "In a specific scenario: You wear an outfit you've never tried before. You feel:",
-    "options": [
-      "Like an imposter",
-      "Okay I guess",
-      "Comfortable",
-      "Like I own the place"
-    ],
-    "weight": [
-      2,
-      4,
-      1,
-      3
-    ]
-  },
-  {
-    "id": 16,
-    "question": "In a specific scenario: Your natural resting face says:",
-    "options": [
-      "Please don't talk to me",
-      "I'm lost",
-      "I'm approachable",
-      "I know something you don't"
-    ],
-    "weight": [
-      4,
-      3,
-      1,
-      2
-    ]
-  },
-  {
-    "id": 17,
-    "question": "In a specific scenario: When you post a new photo, the comments usually say:",
-    "options": [
-      "Cute!",
-      "Looking good",
-      "Obsessed",
-      "Literal royalty"
-    ],
-    "weight": [
-      2,
-      3,
-      4,
-      1
-    ]
-  },
-  {
-    "id": 18,
-    "question": "In a specific scenario: You have to give a presentation. Your vibe is:",
-    "options": [
-      "Nervous wreck",
-      "Reading from notes",
-      "Engaging the room",
-      "Commanding the stage"
-    ],
-    "weight": [
-      3,
-      4,
-      2,
-      1
-    ]
-  },
-  {
-    "id": 19,
-    "question": "In a specific scenario: Someone compliments you out of nowhere. You act like:",
-    "options": [
-      "Get flustered",
-      "Say thank you",
-      "Compliment them back",
-      "Say 'I know'"
-    ],
-    "weight": [
-      4,
-      1,
-      3,
-      2
-    ]
-  },
-  {
-    "id": 20,
-    "question": "In a specific scenario: You walk into a party where you know nobody. You act like:",
-    "options": [
-      "Hide in the corner",
-      "Find the host",
-      "Introduce yourself",
-      "Wait for them to come"
-    ],
-    "weight": [
-      1,
-      3,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 21,
-    "question": "In a specific scenario: When you enter a crowded room, people usually:",
-    "options": [
-      "Look away quickly",
-      "Stare at me",
-      "Smile politely",
-      "Don't notice me"
-    ],
-    "weight": [
-      1,
-      3,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 22,
-    "question": "In a specific scenario: Your friend introduces you to someone new. You give off:",
-    "options": [
-      "Mysterious energy",
-      "Warm and welcoming",
-      "Intimidating vibes",
-      "Awkward silence"
-    ],
-    "weight": [
-      1,
-      3,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 23,
-    "question": "In a specific scenario: You're walking down the street and make eye contact. You act like:",
-    "options": [
-      "Look at the ground",
-      "Smile and nod",
-      "Hold the gaze",
-      "Look right through them"
-    ],
-    "weight": [
-      3,
-      2,
-      4,
-      1
-    ]
-  },
-  {
-    "id": 24,
-    "question": "In a specific scenario: Someone tries to interrupt you while you speak. You act like:",
-    "options": [
-      "Stop talking",
-      "Raise your volume",
-      "Wait and continue",
-      "Silence them with a look"
-    ],
-    "weight": [
-      4,
-      2,
-      1,
-      3
-    ]
-  },
-  {
-    "id": 25,
-    "question": "In a specific scenario: You wear an outfit you've never tried before. You feel:",
-    "options": [
-      "Like an imposter",
-      "Okay I guess",
-      "Comfortable",
-      "Like I own the place"
-    ],
-    "weight": [
-      2,
-      1,
-      3,
-      4
-    ]
-  },
-  {
-    "id": 26,
-    "question": "In a specific scenario: Your natural resting face says:",
-    "options": [
-      "Please don't talk to me",
-      "I'm lost",
-      "I'm approachable",
-      "I know something you don't"
-    ],
-    "weight": [
-      3,
-      4,
-      1,
-      2
-    ]
-  },
-  {
-    "id": 27,
-    "question": "In a specific scenario: When you post a new photo, the comments usually say:",
-    "options": [
-      "Cute!",
-      "Looking good",
-      "Obsessed",
-      "Literal royalty"
-    ],
-    "weight": [
-      2,
-      4,
-      1,
-      3
-    ]
-  },
-  {
-    "id": 28,
-    "question": "In a specific scenario: You have to give a presentation. Your vibe is:",
-    "options": [
-      "Nervous wreck",
-      "Reading from notes",
-      "Engaging the room",
-      "Commanding the stage"
-    ],
-    "weight": [
-      1,
-      2,
-      3,
-      4
-    ]
-  },
-  {
-    "id": 29,
-    "question": "In a specific scenario: Someone compliments you out of nowhere. You act like:",
-    "options": [
-      "Get flustered",
-      "Say thank you",
-      "Compliment them back",
-      "Say 'I know'"
-    ],
-    "weight": [
-      1,
-      4,
-      2,
-      3
-    ]
-  },
-  {
-    "id": 30,
-    "question": "In a specific scenario: You walk into a party where you know nobody. You act like:",
-    "options": [
-      "Hide in the corner",
-      "Find the host",
-      "Introduce yourself",
-      "Wait for them to come"
-    ],
-    "weight": [
-      2,
-      1,
-      4,
-      3
-    ]
-  },
-  {
-    "id": 31,
-    "question": "In a specific scenario: When you enter a crowded room, people usually:",
-    "options": [
-      "Look away quickly",
-      "Stare at me",
-      "Smile politely",
-      "Don't notice me"
-    ],
-    "weight": [
-      1,
-      2,
-      3,
-      4
-    ]
-  },
-  {
-    "id": 32,
-    "question": "In a specific scenario: Your friend introduces you to someone new. You give off:",
-    "options": [
-      "Mysterious energy",
-      "Warm and welcoming",
-      "Intimidating vibes",
-      "Awkward silence"
-    ],
-    "weight": [
-      3,
-      2,
-      1,
-      4
-    ]
-  },
-  {
-    "id": 33,
-    "question": "In a specific scenario: You're walking down the street and make eye contact. You act like:",
-    "options": [
-      "Look at the ground",
-      "Smile and nod",
-      "Hold the gaze",
-      "Look right through them"
-    ],
-    "weight": [
-      3,
-      4,
-      2,
-      1
-    ]
-  },
-  {
-    "id": 34,
-    "question": "In a specific scenario: Someone tries to interrupt you while you speak. You act like:",
-    "options": [
-      "Stop talking",
-      "Raise your volume",
-      "Wait and continue",
-      "Silence them with a look"
-    ],
-    "weight": [
-      1,
-      4,
-      3,
-      2
-    ]
-  },
-  {
-    "id": 35,
-    "question": "In a specific scenario: You wear an outfit you've never tried before. You feel:",
-    "options": [
-      "Like an imposter",
-      "Okay I guess",
-      "Comfortable",
-      "Like I own the place"
-    ],
-    "weight": [
-      2,
-      1,
-      4,
-      3
-    ]
-  },
-  {
-    "id": 36,
-    "question": "In a specific scenario: Your natural resting face says:",
-    "options": [
-      "Please don't talk to me",
-      "I'm lost",
-      "I'm approachable",
-      "I know something you don't"
-    ],
-    "weight": [
-      3,
-      1,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 37,
-    "question": "In a specific scenario: When you post a new photo, the comments usually say:",
-    "options": [
-      "Cute!",
-      "Looking good",
-      "Obsessed",
-      "Literal royalty"
-    ],
-    "weight": [
-      4,
-      3,
-      1,
-      2
-    ]
-  },
-  {
-    "id": 38,
-    "question": "In a specific scenario: You have to give a presentation. Your vibe is:",
-    "options": [
-      "Nervous wreck",
-      "Reading from notes",
-      "Engaging the room",
-      "Commanding the stage"
-    ],
-    "weight": [
-      3,
-      4,
-      2,
-      1
-    ]
-  },
-  {
-    "id": 39,
-    "question": "In a specific scenario: Someone compliments you out of nowhere. You act like:",
-    "options": [
-      "Get flustered",
-      "Say thank you",
-      "Compliment them back",
-      "Say 'I know'"
-    ],
-    "weight": [
-      1,
-      2,
-      3,
-      4
-    ]
-  },
-  {
-    "id": 40,
-    "question": "In a specific scenario: You walk into a party where you know nobody. You act like:",
-    "options": [
-      "Hide in the corner",
-      "Find the host",
-      "Introduce yourself",
-      "Wait for them to come"
-    ],
-    "weight": [
-      2,
-      3,
-      4,
-      1
-    ]
-  },
-  {
-    "id": 41,
-    "question": "In a specific scenario: When you enter a crowded room, people usually:",
-    "options": [
-      "Look away quickly",
-      "Stare at me",
-      "Smile politely",
-      "Don't notice me"
-    ],
-    "weight": [
-      3,
-      4,
-      1,
-      2
-    ]
-  },
-  {
-    "id": 42,
-    "question": "In a specific scenario: Your friend introduces you to someone new. You give off:",
-    "options": [
-      "Mysterious energy",
-      "Warm and welcoming",
-      "Intimidating vibes",
-      "Awkward silence"
-    ],
-    "weight": [
-      2,
-      4,
-      3,
-      1
-    ]
-  },
-  {
-    "id": 43,
-    "question": "In a specific scenario: You're walking down the street and make eye contact. You act like:",
-    "options": [
-      "Look at the ground",
-      "Smile and nod",
-      "Hold the gaze",
-      "Look right through them"
-    ],
-    "weight": [
-      2,
-      4,
-      3,
-      1
-    ]
-  },
-  {
-    "id": 44,
-    "question": "In a specific scenario: Someone tries to interrupt you while you speak. You act like:",
-    "options": [
-      "Stop talking",
-      "Raise your volume",
-      "Wait and continue",
-      "Silence them with a look"
-    ],
-    "weight": [
-      2,
-      4,
-      1,
-      3
-    ]
-  },
-  {
-    "id": 45,
-    "question": "In a specific scenario: You wear an outfit you've never tried before. You feel:",
-    "options": [
-      "Like an imposter",
-      "Okay I guess",
-      "Comfortable",
-      "Like I own the place"
-    ],
-    "weight": [
-      2,
-      1,
-      4,
-      3
-    ]
-  },
-  {
-    "id": 46,
-    "question": "In a specific scenario: Your natural resting face says:",
-    "options": [
-      "Please don't talk to me",
-      "I'm lost",
-      "I'm approachable",
-      "I know something you don't"
-    ],
-    "weight": [
-      4,
-      2,
-      1,
-      3
-    ]
-  },
-  {
-    "id": 47,
-    "question": "In a specific scenario: When you post a new photo, the comments usually say:",
-    "options": [
-      "Cute!",
-      "Looking good",
-      "Obsessed",
-      "Literal royalty"
-    ],
-    "weight": [
-      4,
-      1,
-      2,
-      3
-    ]
-  },
-  {
-    "id": 48,
-    "question": "In a specific scenario: You have to give a presentation. Your vibe is:",
-    "options": [
-      "Nervous wreck",
-      "Reading from notes",
-      "Engaging the room",
-      "Commanding the stage"
-    ],
-    "weight": [
-      1,
-      2,
-      3,
-      4
-    ]
-  },
-  {
-    "id": 49,
-    "question": "In a specific scenario: Someone compliments you out of nowhere. You act like:",
-    "options": [
-      "Get flustered",
-      "Say thank you",
-      "Compliment them back",
-      "Say 'I know'"
-    ],
-    "weight": [
-      4,
-      1,
-      3,
-      2
-    ]
-  },
-  {
-    "id": 50,
-    "question": "In a specific scenario: You walk into a party where you know nobody. You act like:",
-    "options": [
-      "Hide in the corner",
-      "Find the host",
-      "Introduce yourself",
-      "Wait for them to come"
-    ],
-    "weight": [
-      2,
-      4,
-      3,
-      1
-    ]
-  },
-  {
-    "id": 51,
-    "question": "In a specific scenario: When you enter a crowded room, people usually:",
-    "options": [
-      "Look away quickly",
-      "Stare at me",
-      "Smile politely",
-      "Don't notice me"
-    ],
-    "weight": [
-      1,
-      4,
-      2,
-      3
-    ]
-  },
-  {
-    "id": 52,
-    "question": "In a specific scenario: Your friend introduces you to someone new. You give off:",
-    "options": [
-      "Mysterious energy",
-      "Warm and welcoming",
-      "Intimidating vibes",
-      "Awkward silence"
-    ],
-    "weight": [
-      2,
-      3,
-      1,
-      4
-    ]
-  },
-  {
-    "id": 53,
-    "question": "In a specific scenario: You're walking down the street and make eye contact. You act like:",
-    "options": [
-      "Look at the ground",
-      "Smile and nod",
-      "Hold the gaze",
-      "Look right through them"
-    ],
-    "weight": [
-      2,
-      3,
-      4,
-      1
-    ]
-  },
-  {
-    "id": 54,
-    "question": "In a specific scenario: Someone tries to interrupt you while you speak. You act like:",
-    "options": [
-      "Stop talking",
-      "Raise your volume",
-      "Wait and continue",
-      "Silence them with a look"
-    ],
-    "weight": [
-      1,
-      2,
-      4,
-      3
-    ]
-  },
-  {
-    "id": 55,
-    "question": "In a specific scenario: You wear an outfit you've never tried before. You feel:",
-    "options": [
-      "Like an imposter",
-      "Okay I guess",
-      "Comfortable",
-      "Like I own the place"
-    ],
-    "weight": [
-      3,
-      4,
-      2,
-      1
-    ]
-  },
-  {
-    "id": 56,
-    "question": "In a specific scenario: Your natural resting face says:",
-    "options": [
-      "Please don't talk to me",
-      "I'm lost",
-      "I'm approachable",
-      "I know something you don't"
-    ],
-    "weight": [
-      2,
-      1,
-      3,
-      4
-    ]
-  },
-  {
-    "id": 57,
-    "question": "In a specific scenario: When you post a new photo, the comments usually say:",
-    "options": [
-      "Cute!",
-      "Looking good",
-      "Obsessed",
-      "Literal royalty"
-    ],
-    "weight": [
-      1,
-      2,
-      3,
-      4
-    ]
-  },
-  {
-    "id": 58,
-    "question": "In a specific scenario: You have to give a presentation. Your vibe is:",
-    "options": [
-      "Nervous wreck",
-      "Reading from notes",
-      "Engaging the room",
-      "Commanding the stage"
-    ],
-    "weight": [
-      4,
-      1,
-      2,
-      3
-    ]
-  },
-  {
-    "id": 59,
-    "question": "In a specific scenario: Someone compliments you out of nowhere. You act like:",
-    "options": [
-      "Get flustered",
-      "Say thank you",
-      "Compliment them back",
-      "Say 'I know'"
-    ],
-    "weight": [
-      1,
-      4,
-      3,
-      2
-    ]
-  },
-  {
-    "id": 60,
-    "question": "In a specific scenario: You walk into a party where you know nobody. You act like:",
-    "options": [
-      "Hide in the corner",
-      "Find the host",
-      "Introduce yourself",
-      "Wait for them to come"
-    ],
-    "weight": [
-      1,
-      3,
-      2,
-      4
-    ]
-  },
-  {
-    "id": 61,
-    "question": "In a specific scenario: When you enter a crowded room, people usually:",
-    "options": [
-      "Look away quickly",
-      "Stare at me",
-      "Smile politely",
-      "Don't notice me"
-    ],
-    "weight": [
-      1,
-      2,
-      4,
-      3
-    ]
-  },
-  {
-    "id": 62,
-    "question": "In a specific scenario: Your friend introduces you to someone new. You give off:",
-    "options": [
-      "Mysterious energy",
-      "Warm and welcoming",
-      "Intimidating vibes",
-      "Awkward silence"
-    ],
-    "weight": [
-      4,
-      1,
-      3,
-      2
-    ]
-  },
-  {
-    "id": 63,
-    "question": "In a specific scenario: You're walking down the street and make eye contact. You act like:",
-    "options": [
-      "Look at the ground",
-      "Smile and nod",
-      "Hold the gaze",
-      "Look right through them"
-    ],
-    "weight": [
-      3,
-      1,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 64,
-    "question": "In a specific scenario: Someone tries to interrupt you while you speak. You act like:",
-    "options": [
-      "Stop talking",
-      "Raise your volume",
-      "Wait and continue",
-      "Silence them with a look"
-    ],
-    "weight": [
-      3,
-      4,
-      1,
-      2
-    ]
-  },
-  {
-    "id": 65,
-    "question": "In a specific scenario: You wear an outfit you've never tried before. You feel:",
-    "options": [
-      "Like an imposter",
-      "Okay I guess",
-      "Comfortable",
-      "Like I own the place"
-    ],
-    "weight": [
-      1,
-      4,
-      3,
-      2
-    ]
-  },
-  {
-    "id": 66,
-    "question": "In a specific scenario: Your natural resting face says:",
-    "options": [
-      "Please don't talk to me",
-      "I'm lost",
-      "I'm approachable",
-      "I know something you don't"
-    ],
-    "weight": [
-      2,
-      4,
-      3,
-      1
-    ]
-  },
-  {
-    "id": 67,
-    "question": "In a specific scenario: When you post a new photo, the comments usually say:",
-    "options": [
-      "Cute!",
-      "Looking good",
-      "Obsessed",
-      "Literal royalty"
-    ],
-    "weight": [
-      3,
-      1,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 68,
-    "question": "In a specific scenario: You have to give a presentation. Your vibe is:",
-    "options": [
-      "Nervous wreck",
-      "Reading from notes",
-      "Engaging the room",
-      "Commanding the stage"
-    ],
-    "weight": [
-      4,
-      1,
-      3,
-      2
-    ]
-  },
-  {
-    "id": 69,
-    "question": "In a specific scenario: Someone compliments you out of nowhere. You act like:",
-    "options": [
-      "Get flustered",
-      "Say thank you",
-      "Compliment them back",
-      "Say 'I know'"
-    ],
-    "weight": [
-      2,
-      1,
-      4,
-      3
-    ]
-  },
-  {
-    "id": 70,
-    "question": "In a specific scenario: You walk into a party where you know nobody. You act like:",
-    "options": [
-      "Hide in the corner",
-      "Find the host",
-      "Introduce yourself",
-      "Wait for them to come"
-    ],
-    "weight": [
-      2,
-      3,
-      1,
-      4
-    ]
-  },
-  {
-    "id": 71,
-    "question": "In a specific scenario: When you enter a crowded room, people usually:",
-    "options": [
-      "Look away quickly",
-      "Stare at me",
-      "Smile politely",
-      "Don't notice me"
-    ],
-    "weight": [
-      3,
-      4,
-      1,
-      2
-    ]
-  },
-  {
-    "id": 72,
-    "question": "In a specific scenario: Your friend introduces you to someone new. You give off:",
-    "options": [
-      "Mysterious energy",
-      "Warm and welcoming",
-      "Intimidating vibes",
-      "Awkward silence"
-    ],
-    "weight": [
-      1,
-      4,
-      2,
-      3
-    ]
-  },
-  {
-    "id": 73,
-    "question": "In a specific scenario: You're walking down the street and make eye contact. You act like:",
-    "options": [
-      "Look at the ground",
-      "Smile and nod",
-      "Hold the gaze",
-      "Look right through them"
-    ],
-    "weight": [
-      1,
-      3,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 74,
-    "question": "In a specific scenario: Someone tries to interrupt you while you speak. You act like:",
-    "options": [
-      "Stop talking",
-      "Raise your volume",
-      "Wait and continue",
-      "Silence them with a look"
-    ],
-    "weight": [
-      3,
-      4,
-      2,
-      1
-    ]
-  },
-  {
-    "id": 75,
-    "question": "In a specific scenario: You wear an outfit you've never tried before. You feel:",
-    "options": [
-      "Like an imposter",
-      "Okay I guess",
-      "Comfortable",
-      "Like I own the place"
-    ],
-    "weight": [
-      3,
-      4,
-      2,
-      1
-    ]
-  },
-  {
-    "id": 76,
-    "question": "In a specific scenario: Your natural resting face says:",
-    "options": [
-      "Please don't talk to me",
-      "I'm lost",
-      "I'm approachable",
-      "I know something you don't"
-    ],
-    "weight": [
-      3,
-      4,
-      2,
-      1
-    ]
-  },
-  {
-    "id": 77,
-    "question": "In a specific scenario: When you post a new photo, the comments usually say:",
-    "options": [
-      "Cute!",
-      "Looking good",
-      "Obsessed",
-      "Literal royalty"
-    ],
-    "weight": [
-      3,
-      4,
-      2,
-      1
-    ]
-  },
-  {
-    "id": 78,
-    "question": "In a specific scenario: You have to give a presentation. Your vibe is:",
-    "options": [
-      "Nervous wreck",
-      "Reading from notes",
-      "Engaging the room",
-      "Commanding the stage"
-    ],
-    "weight": [
-      3,
-      1,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 79,
-    "question": "In a specific scenario: Someone compliments you out of nowhere. You act like:",
-    "options": [
-      "Get flustered",
-      "Say thank you",
-      "Compliment them back",
-      "Say 'I know'"
-    ],
-    "weight": [
-      3,
-      2,
-      4,
-      1
-    ]
-  },
-  {
-    "id": 80,
-    "question": "In a specific scenario: You walk into a party where you know nobody. You act like:",
-    "options": [
-      "Hide in the corner",
-      "Find the host",
-      "Introduce yourself",
-      "Wait for them to come"
-    ],
-    "weight": [
-      1,
-      3,
-      2,
-      4
-    ]
-  },
-  {
-    "id": 81,
-    "question": "In a specific scenario: When you enter a crowded room, people usually:",
-    "options": [
-      "Look away quickly",
-      "Stare at me",
-      "Smile politely",
-      "Don't notice me"
-    ],
-    "weight": [
-      2,
-      1,
-      3,
-      4
-    ]
-  },
-  {
-    "id": 82,
-    "question": "In a specific scenario: Your friend introduces you to someone new. You give off:",
-    "options": [
-      "Mysterious energy",
-      "Warm and welcoming",
-      "Intimidating vibes",
-      "Awkward silence"
-    ],
-    "weight": [
-      3,
-      2,
-      1,
-      4
-    ]
-  },
-  {
-    "id": 83,
-    "question": "In a specific scenario: You're walking down the street and make eye contact. You act like:",
-    "options": [
-      "Look at the ground",
-      "Smile and nod",
-      "Hold the gaze",
-      "Look right through them"
-    ],
-    "weight": [
-      2,
-      1,
-      4,
-      3
-    ]
-  },
-  {
-    "id": 84,
-    "question": "In a specific scenario: Someone tries to interrupt you while you speak. You act like:",
-    "options": [
-      "Stop talking",
-      "Raise your volume",
-      "Wait and continue",
-      "Silence them with a look"
-    ],
-    "weight": [
-      1,
-      3,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 85,
-    "question": "In a specific scenario: You wear an outfit you've never tried before. You feel:",
-    "options": [
-      "Like an imposter",
-      "Okay I guess",
-      "Comfortable",
-      "Like I own the place"
-    ],
-    "weight": [
-      3,
-      1,
-      2,
-      4
-    ]
-  },
-  {
-    "id": 86,
-    "question": "In a specific scenario: Your natural resting face says:",
-    "options": [
-      "Please don't talk to me",
-      "I'm lost",
-      "I'm approachable",
-      "I know something you don't"
-    ],
-    "weight": [
-      4,
-      1,
-      2,
-      3
-    ]
-  },
-  {
-    "id": 87,
-    "question": "In a specific scenario: When you post a new photo, the comments usually say:",
-    "options": [
-      "Cute!",
-      "Looking good",
-      "Obsessed",
-      "Literal royalty"
-    ],
-    "weight": [
-      1,
-      4,
-      3,
-      2
-    ]
-  },
-  {
-    "id": 88,
-    "question": "In a specific scenario: You have to give a presentation. Your vibe is:",
-    "options": [
-      "Nervous wreck",
-      "Reading from notes",
-      "Engaging the room",
-      "Commanding the stage"
-    ],
-    "weight": [
-      3,
-      1,
-      2,
-      4
-    ]
-  },
-  {
-    "id": 89,
-    "question": "In a specific scenario: Someone compliments you out of nowhere. You act like:",
-    "options": [
-      "Get flustered",
-      "Say thank you",
-      "Compliment them back",
-      "Say 'I know'"
-    ],
-    "weight": [
-      4,
-      2,
-      3,
-      1
-    ]
-  },
-  {
-    "id": 90,
-    "question": "In a specific scenario: You walk into a party where you know nobody. You act like:",
-    "options": [
-      "Hide in the corner",
-      "Find the host",
-      "Introduce yourself",
-      "Wait for them to come"
-    ],
-    "weight": [
-      1,
-      3,
-      2,
-      4
-    ]
-  },
-  {
-    "id": 91,
-    "question": "In a specific scenario: When you enter a crowded room, people usually:",
-    "options": [
-      "Look away quickly",
-      "Stare at me",
-      "Smile politely",
-      "Don't notice me"
-    ],
-    "weight": [
-      4,
-      1,
-      3,
-      2
-    ]
-  },
-  {
-    "id": 92,
-    "question": "In a specific scenario: Your friend introduces you to someone new. You give off:",
-    "options": [
-      "Mysterious energy",
-      "Warm and welcoming",
-      "Intimidating vibes",
-      "Awkward silence"
-    ],
-    "weight": [
-      2,
-      4,
-      1,
-      3
-    ]
-  },
-  {
-    "id": 93,
-    "question": "In a specific scenario: You're walking down the street and make eye contact. You act like:",
-    "options": [
-      "Look at the ground",
-      "Smile and nod",
-      "Hold the gaze",
-      "Look right through them"
-    ],
-    "weight": [
-      4,
-      2,
-      1,
-      3
-    ]
-  },
-  {
-    "id": 94,
-    "question": "In a specific scenario: Someone tries to interrupt you while you speak. You act like:",
-    "options": [
-      "Stop talking",
-      "Raise your volume",
-      "Wait and continue",
-      "Silence them with a look"
-    ],
-    "weight": [
-      3,
-      1,
-      2,
-      4
-    ]
-  },
-  {
-    "id": 95,
-    "question": "In a specific scenario: You wear an outfit you've never tried before. You feel:",
-    "options": [
-      "Like an imposter",
-      "Okay I guess",
-      "Comfortable",
-      "Like I own the place"
-    ],
-    "weight": [
-      4,
-      1,
-      3,
-      2
-    ]
-  },
-  {
-    "id": 96,
-    "question": "In a specific scenario: Your natural resting face says:",
-    "options": [
-      "Please don't talk to me",
-      "I'm lost",
-      "I'm approachable",
-      "I know something you don't"
-    ],
-    "weight": [
-      3,
-      1,
-      4,
-      2
-    ]
-  },
-  {
-    "id": 97,
-    "question": "In a specific scenario: When you post a new photo, the comments usually say:",
-    "options": [
-      "Cute!",
-      "Looking good",
-      "Obsessed",
-      "Literal royalty"
-    ],
-    "weight": [
-      2,
-      1,
-      3,
-      4
-    ]
-  },
-  {
-    "id": 98,
-    "question": "In a specific scenario: You have to give a presentation. Your vibe is:",
-    "options": [
-      "Nervous wreck",
-      "Reading from notes",
-      "Engaging the room",
-      "Commanding the stage"
-    ],
-    "weight": [
-      4,
-      1,
-      2,
-      3
-    ]
-  },
-  {
-    "id": 99,
-    "question": "In a specific scenario: Someone compliments you out of nowhere. You act like:",
-    "options": [
-      "Get flustered",
-      "Say thank you",
-      "Compliment them back",
-      "Say 'I know'"
-    ],
-    "weight": [
-      4,
-      1,
-      2,
-      3
-    ]
-  },
-  {
-    "id": 100,
-    "question": "In a specific scenario: You walk into a party where you know nobody. You act like:",
-    "options": [
-      "Hide in the corner",
-      "Find the host",
-      "Introduce yourself",
-      "Wait for them to come"
-    ],
-    "weight": [
-      1,
-      3,
-      4,
-      2
-    ]
-  }
+  {"id":1,"question":"When you enter a crowded room, people usually:","options":["Don't notice me","Glance briefly","Turn to look","Go quiet for a second"],"weight":[1,2,3,4]},
+  {"id":2,"question":"Your friend introduces you to someone new. You give off:","options":["Awkward silence","Warm and friendly","Mysterious energy","Intimidating vibes"],"weight":[1,2,3,4]},
+  {"id":3,"question":"You make eye contact with a stranger on the street. You:","options":["Look at the ground","Smile and nod","Hold the gaze","Look right through them"],"weight":[1,2,3,4]},
+  {"id":4,"question":"Someone tries to interrupt you while you speak. You:","options":["Stop and let them","Raise your voice a little","Wait and continue calmly","Silence them with a look"],"weight":[1,2,3,4]},
+  {"id":5,"question":"You try on a bold outfit you've never worn before. You feel:","options":["Like an imposter","Okay I guess","Pretty confident","Like I own the room"],"weight":[1,2,3,4]},
+  {"id":6,"question":"Your resting face tends to say:","options":["I'm lost","Please don't talk to me","I'm approachable","I know something you don't"],"weight":[1,2,3,4]},
+  {"id":7,"question":"You post a new photo and the comments usually say:","options":["Cute!","Looking good","Obsessed","Literal royalty"],"weight":[1,2,3,4]},
+  {"id":8,"question":"You have to give a presentation. Your vibe is:","options":["Nervous wreck","Reading from notes","Engaging the room","Commanding the stage"],"weight":[1,2,3,4]},
+  {"id":9,"question":"Someone compliments you out of nowhere. You:","options":["Get flustered","Say thank you","Compliment them back","Say 'I know'"],"weight":[1,2,3,4]},
+  {"id":10,"question":"You walk into a party where you know nobody. You:","options":["Stay by the door","Find the host","Introduce yourself to strangers","Wait for people to come to you"],"weight":[1,2,3,4]},
+  {"id":11,"question":"Someone challenges you in front of a group. You:","options":["Back down","Stumble through it","Hold your ground","Stay calm and confident"],"weight":[1,2,3,4]},
+  {"id":12,"question":"You walk past a mirror. You:","options":["Avoid eye contact","Take a quick glance","Check yourself out","Wink at yourself"],"weight":[1,2,3,4]},
+  {"id":13,"question":"You are the last to arrive to an event. The room:","options":["Doesn't notice","Glances briefly","Turns to look","Goes a little quiet"],"weight":[1,2,3,4]},
+  {"id":14,"question":"A stranger asks for your opinion. You:","options":["Panic and over-explain","Give a short hesitant answer","Speak clearly and confidently","Give an answer that stays with them"],"weight":[1,2,3,4]},
+  {"id":15,"question":"You get a bad haircut right before a big day. You:","options":["Cancel everything","Feel down all day","Wear it and move on","Make it look intentional"],"weight":[1,2,3,4]},
+  {"id":16,"question":"You walk alone down a busy street. People:","options":["Barely notice you","Notice you now and then","Look more than once","Move out of your way"],"weight":[1,2,3,4]},
+  {"id":17,"question":"You laugh in a group conversation. People:","options":["Keep talking","Look over briefly","Smile along","Join your energy"],"weight":[1,2,3,4]},
+  {"id":18,"question":"Someone gives you a backhanded compliment. You:","options":["Feel it deeply","Laugh it off","Call it out calmly","Thank them and keep going unbothered"],"weight":[1,2,3,4]},
+  {"id":19,"question":"You speak up in a group setting. People:","options":["Keep scrolling their phones","Half listen","Stop and pay attention","Take notes"],"weight":[1,2,3,4]},
+  {"id":20,"question":"You show up in a new outfit. People:","options":["Don't mention it","Say 'oh nice outfit'","Say they love it","Ask where you got it from"],"weight":[1,2,3,4]},
+  {"id":21,"question":"You disagree with someone older. You:","options":["Back down immediately","Say it quietly","State your point clearly","Say it with eye contact and no apology"],"weight":[1,2,3,4]},
+  {"id":22,"question":"You walk into a job interview. The interviewer:","options":["Doesn't look up right away","Nods as you come in","Smiles and sits up","Seems slightly impressed before you speak"],"weight":[1,2,3,4]},
+  {"id":23,"question":"You cancel plans last minute. People:","options":["Say it's fine and mean it","Are a little disappointed","Miss you genuinely","Reorganize the whole plan around your absence"],"weight":[1,2,3,4]},
+  {"id":24,"question":"You show up somewhere late. People:","options":["Don't say much","Say 'you made it'","Look relieved","Say it's better now that you're here"],"weight":[1,2,3,4]},
+  {"id":25,"question":"You go quiet in a group chat. People:","options":["Don't notice","Notice after a while","Ask if you're okay","Say the group feels off without you"],"weight":[1,2,3,4]},
+  {"id":26,"question":"You sit next to a stranger. They:","options":["Shift slightly away","Stay neutral","Glance over and smile","Start a conversation"],"weight":[1,2,3,4]},
+  {"id":27,"question":"You leave a gathering early. People:","options":["Say bye","Say it was nice seeing you","Ask you to stay","Say the energy left with you"],"weight":[1,2,3,4]},
+  {"id":28,"question":"You ask for something in a store. The staff:","options":["Take a second to respond","Answer quickly","Seem eager to help","Drop what they're doing"],"weight":[1,2,3,4]},
+  {"id":29,"question":"You express an unpopular opinion. People:","options":["Dismiss it","Hear you out","Consider it","Reconsider their own view"],"weight":[1,2,3,4]},
+  {"id":30,"question":"You say very little all evening. People think:","options":["You're boring","You're shy","You're thoughtful","You're the most interesting one there"],"weight":[1,2,3,4]},
+  {"id":31,"question":"You arrive to a new job or class for the first time. You:","options":["Find a corner seat","Find a middle seat","Introduce yourself to one person","Introduce yourself to the whole group"],"weight":[1,2,3,4]},
+  {"id":32,"question":"You tell a story in a group. People:","options":["Keep scrolling","Half listen","Stop to listen","Retell it to others later"],"weight":[1,2,3,4]},
+  {"id":33,"question":"You wear all black to an event. You look:","options":["Like you didn't know the dress code","Fine","Chic","Like you set the dress code"],"weight":[1,2,3,4]},
+  {"id":34,"question":"You express an idea at work or school. People:","options":["Nod politely","Consider it briefly","Take it seriously","Build on it immediately"],"weight":[1,2,3,4]},
+  {"id":35,"question":"You give someone a compliment. They:","options":["Say thanks awkwardly","Say thanks and smile","Light up","Tell others about it later"],"weight":[1,2,3,4]},
+  {"id":36,"question":"You make a mistake in public. You:","options":["Want to disappear","Feel embarrassed but recover","Laugh it off fast","Own it before anyone else can comment"],"weight":[1,2,3,4]},
+  {"id":37,"question":"You are in a photo with a group. People usually say:","options":["Everyone looks great","Nice group photo","You really pop","Who are you wearing"],"weight":[1,2,3,4]},
+  {"id":38,"question":"You are in a room with someone powerful. You feel:","options":["Intimidated","A little nervous","Composed","Like equals"],"weight":[1,2,3,4]},
+  {"id":39,"question":"You change your hairstyle. People:","options":["Don't notice for days","Notice within a week","Notice immediately","Make it a whole conversation"],"weight":[1,2,3,4]},
+  {"id":40,"question":"You are eating alone at a restaurant. You look:","options":["Lonely","Fine","Intentional","Like someone who owns the restaurant"],"weight":[1,2,3,4]},
+  {"id":41,"question":"You walk into a room mid-conversation. The energy:","options":["Stays the same","Shifts slightly","Shifts noticeably","Changes completely"],"weight":[1,2,3,4]},
+  {"id":42,"question":"Someone raises their voice at you. You:","options":["Shut down","Get flustered","Stay calm","Lower your voice and make them feel it"],"weight":[1,2,3,4]},
+  {"id":43,"question":"You are given a task with no instructions. You:","options":["Freeze up","Ask for help","Figure it out","Make it better than expected"],"weight":[1,2,3,4]},
+  {"id":44,"question":"You are running late and walk in during a meeting. You:","options":["Apologize excessively","Slide in quietly","Walk in calmly and sit down","Walk in, apologize once, and take control of your seat"],"weight":[1,2,3,4]},
+  {"id":45,"question":"Someone tries to copy your style. You:","options":["Feel annoyed","Don't notice","Take it as a compliment","Know they can't pull it off the same way"],"weight":[1,2,3,4]},
+  {"id":46,"question":"You get a bad review or feedback. You:","options":["Take it very personally","Feel it for a while","Process and improve","Use it to prove them wrong"],"weight":[1,2,3,4]},
+  {"id":47,"question":"You get dressed in the dark and still walk out looking:","options":["Like it shows","Like a rough day","Put together","Like you planned every piece"],"weight":[1,2,3,4]},
+  {"id":48,"question":"You shake someone's hand. They:","options":["Shake back quickly","Shake back normally","Make eye contact","Remember the handshake"],"weight":[1,2,3,4]},
+  {"id":49,"question":"You are in a lineup or queue. People:","options":["Don't notice you","Acknowledge you","Step aside","Let you go first for some reason"],"weight":[1,2,3,4]},
+  {"id":50,"question":"You say no to something. People:","options":["Push back","Accept it with a question","Accept it","Respect it immediately"],"weight":[1,2,3,4]},
+  {"id":51,"question":"You walk into your workplace. Your energy is:","options":["Invisible","Neutral","Positive and warm","The reason people come in on time"],"weight":[1,2,3,4]},
+  {"id":52,"question":"You introduce yourself at an event. People remember:","options":["That someone new was there","Your name vaguely","Your name clearly","Your name and something you said"],"weight":[1,2,3,4]},
+  {"id":53,"question":"You are standing still in a crowd. People:","options":["Pass without noticing","Glance once","Look twice","Create space around you naturally"],"weight":[1,2,3,4]},
+  {"id":54,"question":"You tell someone you disagree. They:","options":["Dismiss you","Hear you politely","Engage with you seriously","Reconsider their position"],"weight":[1,2,3,4]},
+  {"id":55,"question":"Someone talks over you repeatedly. You:","options":["Give up speaking","Wait anxiously","Bring your point back calmly","Say 'as I was saying' and continue"],"weight":[1,2,3,4]},
+  {"id":56,"question":"You walk into a space you've never been to. You:","options":["Follow others' lead","Look for a familiar face","Take it in and navigate","Act like you've been there before"],"weight":[1,2,3,4]},
+  {"id":57,"question":"You are in a photo and you're not wearing your best. You:","options":["Untag immediately","Leave it but cringe","Leave it — it's a vibe","Post it yourself"],"weight":[1,2,3,4]},
+  {"id":58,"question":"You order at a restaurant confidently. The waiter:","options":["Takes the order routinely","Smiles","Gives a recommendation","Seems to enjoy taking your order"],"weight":[1,2,3,4]},
+  {"id":59,"question":"You laugh at something nobody else does. You:","options":["Stop and go red","Explain why it was funny","Laugh anyway","Laugh louder"],"weight":[1,2,3,4]},
+  {"id":60,"question":"You give a speech. People:","options":["Listen politely","Engage a little","Nod along genuinely","Applaud before you finish"],"weight":[1,2,3,4]},
+  {"id":61,"question":"You are told 'you have a presence'. You think:","options":["They're being nice","It's something you've worked on","It's always been there","Obviously"],"weight":[1,2,3,4]},
+  {"id":62,"question":"You step outside on a regular day. You feel:","options":["Just existing","Comfortable","Confident","Like the main character"],"weight":[1,2,3,4]},
+  {"id":63,"question":"Someone new meets you and immediately asks what you do. You think:","options":["They're making small talk","Standard question","They're curious about me","They already sense something"],"weight":[1,2,3,4]},
+  {"id":64,"question":"You don't speak for most of a meeting. When you do, people:","options":["Keep multitasking","Look up briefly","Pay attention","Write it down"],"weight":[1,2,3,4]},
+  {"id":65,"question":"You are tired but still show up. People notice:","options":["Nothing different","That you seem off","That you're there and that matters","That you somehow still carry the room"],"weight":[1,2,3,4]},
+  {"id":66,"question":"Someone tries to embarrass you in public. You:","options":["Feel it deeply","Go quiet","Stay composed","Turn it around on them calmly"],"weight":[1,2,3,4]},
+  {"id":67,"question":"You wear something unconventional. People say:","options":["'That's interesting'","'Bold choice'","'I love it'","'You could make anything look good'"],"weight":[1,2,3,4]},
+  {"id":68,"question":"You ask for something unusual. The response is:","options":["A no","Hesitation then a yes","A yes","A yes plus extra effort"],"weight":[1,2,3,4]},
+  {"id":69,"question":"You take up space in a room. You usually:","options":["Try to take up less","Take a normal amount","Take what you need","Naturally command a portion of the room"],"weight":[1,2,3,4]},
+  {"id":70,"question":"You get a compliment on your energy. You think:","options":["They're just being kind","Nice thing to hear","It's true","I know — it's a gift"],"weight":[1,2,3,4]},
+  {"id":71,"question":"A room full of strangers is quiet. You:","options":["Stay quiet too","Say something safe","Break the ice naturally","Have everyone talking within 5 minutes"],"weight":[1,2,3,4]},
+  {"id":72,"question":"You are recommended by someone. They say:","options":["They're nice","They know a lot of people","They always speak well of you","They refer to you as 'the one you need to know'"],"weight":[1,2,3,4]},
+  {"id":73,"question":"You hold a door open for someone. They:","options":["Walk through without noticing","Say thanks briefly","Say thanks with a smile","Remember the gesture"],"weight":[1,2,3,4]},
+  {"id":74,"question":"You stand at the front of a room. People assume:","options":["You're lost","You work there","You're important","You're in charge"],"weight":[1,2,3,4]},
+  {"id":75,"question":"You eat something messily. You look:","options":["Embarrassed","Like it's fine","Like you're enjoying it","Like it's haute cuisine"],"weight":[1,2,3,4]},
+  {"id":76,"question":"You make a recommendation. People:","options":["Maybe consider it","Usually follow it","Almost always follow it","Follow it without question"],"weight":[1,2,3,4]},
+  {"id":77,"question":"You walk with your hands in your pockets. You look:","options":["Nervous","Casual","Cool","Effortlessly powerful"],"weight":[1,2,3,4]},
+  {"id":78,"question":"You are caught off guard by a question. You:","options":["Stumble","Buy time with 'um'","Pause and answer well","Turn it into an interesting response"],"weight":[1,2,3,4]},
+  {"id":79,"question":"You sit in a chair in a waiting room. You look:","options":["Like you're waiting to be called","Comfortable","At ease","Like you own the building"],"weight":[1,2,3,4]},
+  {"id":80,"question":"You are talked about when you leave a room. People say:","options":["'Who was that?'","'They seem nice'","'I liked them'","'There's something about them'"],"weight":[1,2,3,4]},
+  {"id":81,"question":"You are praised publicly. You:","options":["Go red and look down","Say thank you quietly","Accept it graciously","Accept it like it's expected"],"weight":[1,2,3,4]},
+  {"id":82,"question":"You start a new job or school. How long before people know your name?","options":["Weeks","About a week","A few days","By day two"],"weight":[1,2,3,4]},
+  {"id":83,"question":"You greet someone. The energy is:","options":["Neutral","Pleasant","Warm","Magnetic"],"weight":[1,2,3,4]},
+  {"id":84,"question":"You walk through a hotel lobby. People:","options":["Keep walking","Glance briefly","Notice you","Clear a path"],"weight":[1,2,3,4]},
+  {"id":85,"question":"You eat lunch alone at a busy place. You look:","options":["Out of place","Fine","Intentional","Like you chose it deliberately and it suits you"],"weight":[1,2,3,4]},
+  {"id":86,"question":"You receive a standing ovation. In your head you:","options":["Feel shocked","Feel grateful","Feel proud","Feel like it was always coming"],"weight":[1,2,3,4]},
+  {"id":87,"question":"You give directions to a lost stranger. They:","options":["Hesitate to trust you","Follow your directions","Say thank you warmly","Ask you to walk them there"],"weight":[1,2,3,4]},
+  {"id":88,"question":"You wear the same thing two days in a row. People:","options":["Notice and comment","Notice and say nothing","Don't notice","Assume it's a deliberate choice"],"weight":[1,2,3,4]},
+  {"id":89,"question":"You speak at the same time as someone else. They:","options":["Keep going","Pause briefly","Let you speak first","Say 'no please, you go'"],"weight":[1,2,3,4]},
+  {"id":90,"question":"You are asked what you do for fun. Your answer:","options":["Makes them zone out","Gets a polite nod","Gets a smile","Makes them wish they did the same"],"weight":[1,2,3,4]},
+  {"id":91,"question":"You make a joke. People:","options":["Force a smile","Laugh politely","Genuinely laugh","Quote it later"],"weight":[1,2,3,4]},
+  {"id":92,"question":"You arrive to a gathering. The energy:","options":["Stays the same","Picks up a bit","Lifts noticeably","Everyone is suddenly louder and happier"],"weight":[1,2,3,4]},
+  {"id":93,"question":"You are described by a friend to someone new. They say:","options":["'They're quiet'","'They're nice'","'They're really something'","'You'll know when you meet them'"],"weight":[1,2,3,4]},
+  {"id":94,"question":"You are the new person in a room. You feel:","options":["Invisible","Slightly out of place","Comfortable","Like you belong more than most"],"weight":[1,2,3,4]},
+  {"id":95,"question":"You make a decision quickly. People:","options":["Question it","Accept it","Trust it","Follow without asking why"],"weight":[1,2,3,4]},
+  {"id":96,"question":"You sit down at a table. The person next to you:","options":["Ignores you","Nods once","Says hello","Starts a conversation right away"],"weight":[1,2,3,4]},
+  {"id":97,"question":"You look someone in the eye when you talk. They:","options":["Look away fast","Maintain eye contact briefly","Hold your gaze","Feel like you see through them"],"weight":[1,2,3,4]},
+  {"id":98,"question":"You tell a story. When you're done people:","options":["Move on fast","Say 'oh interesting'","Ask questions","Want to hear another one"],"weight":[1,2,3,4]},
+  {"id":99,"question":"You are in a photo. You look:","options":["Like you didn't know the photo was happening","Fine","Great","Like the reason the photo was taken"],"weight":[1,2,3,4]},
+  {"id":100,"question":"You leave a message on someone's phone. They:","options":["Call back whenever","Call back same day","Call back fast","Call back immediately"],"weight":[1,2,3,4]},
+  {"id":101,"question":"You sit down at a cafe and open your laptop. People nearby:","options":["Pay no attention","Glance once","Notice your setup","Assume you're doing something important"],"weight":[1,2,3,4]},
+  {"id":102,"question":"You ask someone to quiet down. They:","options":["Ignore you","Pause for a second","Lower their voice","Stop immediately"],"weight":[1,2,3,4]},
+  {"id":103,"question":"You enter a negotiation. You feel:","options":["Nervous","Anxious but ready","Confident","Like the outcome is already yours"],"weight":[1,2,3,4]},
+  {"id":104,"question":"You are given a surprise task. You handle it:","options":["With visible panic","With some stumbling","Smoothly","So smoothly people think you knew"],"weight":[1,2,3,4]},
+  {"id":105,"question":"You tell someone no. Their reaction is:","options":["Pushback","Disappointment","Understanding","Complete respect"],"weight":[1,2,3,4]},
+  {"id":106,"question":"You post a selfie with no caption. The response is:","options":["A few likes","Some likes and comments","A lot of positive comments","'Legends don't need captions'"],"weight":[1,2,3,4]},
+  {"id":107,"question":"You walk away from a conversation. The person thinks:","options":["Nothing much","They seemed nice","I liked them","I want to talk to them again"],"weight":[1,2,3,4]},
+  {"id":108,"question":"You pick up a new skill. People say:","options":["'Cool'","'Nice'","'That suits you'","'Of course you're good at that too'"],"weight":[1,2,3,4]},
+  {"id":109,"question":"You walk into a coffee shop on a slow day. The barista:","options":["Takes a moment","Says hi casually","Smiles when you walk in","Starts your usual before you order"],"weight":[1,2,3,4]},
+  {"id":110,"question":"You get serious. The room:","options":["Stays the same","Notices slightly","Goes still","Adjusts its energy entirely"],"weight":[1,2,3,4]},
+  {"id":111,"question":"People describe your style as:","options":["Safe","Nice","Distinct","Iconic"],"weight":[1,2,3,4]},
+  {"id":112,"question":"You smile at someone you don't know. They:","options":["Don't catch it","Give a polite smile back","Smile back genuinely","Light up completely"],"weight":[1,2,3,4]},
+  {"id":113,"question":"You sit at the head of a table without being assigned there. People:","options":["Ask you to move","Say nothing","Adjust to it","Treat you like you were always meant to sit there"],"weight":[1,2,3,4]},
+  {"id":114,"question":"Someone is rude to you. You:","options":["Absorb it","Get slightly flustered","Stay unbothered","Make them feel the weight of their words"],"weight":[1,2,3,4]},
+  {"id":115,"question":"You speak up for the first time in a room. People:","options":["Keep going","Pause","Stop and listen","Act like they've been waiting for your input"],"weight":[1,2,3,4]},
+  {"id":116,"question":"You choose something unusual on a menu. People:","options":["Ignore it","Say 'interesting choice'","Say 'I was going to get that'","Ask to taste yours"],"weight":[1,2,3,4]},
+  {"id":117,"question":"You are at a party and don't dance. You look:","options":["Like you don't want to be there","Like you're watching","Like you're above it","Like dancing would ruin the mystery"],"weight":[1,2,3,4]},
+  {"id":118,"question":"You point something out that everyone missed. People:","options":["Say 'oh'","Look surprised","Are genuinely impressed","Wonder how you noticed"],"weight":[1,2,3,4]},
+  {"id":119,"question":"You turn down an invitation. People say:","options":["'Oh okay'","'That's a shame'","'It won't be the same without you'","'Then we'll reschedule'"],"weight":[1,2,3,4]},
+  {"id":120,"question":"You sit across from someone at a table. They:","options":["Focus on their food","Make occasional eye contact","Make comfortable conversation","Feel like they're in an interview"],"weight":[1,2,3,4]},
+  {"id":121,"question":"You express sadness around people you trust. They:","options":["Say 'hope you feel better'","Check in once","Make themselves available","Drop everything"],"weight":[1,2,3,4]},
+  {"id":122,"question":"You recommend a song or show. People:","options":["Say they'll check it later","Check it eventually","Check it the same day","Trust anything you recommend sight unseen"],"weight":[1,2,3,4]},
+  {"id":123,"question":"You change the topic in a conversation. People:","options":["Seem confused","Follow along","Go with it naturally","Thank you for it later"],"weight":[1,2,3,4]},
+  {"id":124,"question":"You express excitement. People:","options":["Give polite interest","Get curious","Get excited too","Match and amplify your energy"],"weight":[1,2,3,4]},
+  {"id":125,"question":"You are quiet in a group setting. People think:","options":["You're disinterested","You're reserved","You're observing","You're the most interesting one there"],"weight":[1,2,3,4]},
+  {"id":126,"question":"You pick up a book in a store. People nearby:","options":["Don't care","Glance at the title","Ask what it is","Ask what you think of it"],"weight":[1,2,3,4]},
+  {"id":127,"question":"You walk into a gym for the first time. You look:","options":["Lost","Like a newcomer","Comfortable","Like a regular who took a break"],"weight":[1,2,3,4]},
+  {"id":128,"question":"You get praised in a group. Others:","options":["Keep going with the meeting","Nod briefly","Clap or agree","Look slightly jealous in a respectful way"],"weight":[1,2,3,4]},
+  {"id":129,"question":"You end a phone call. The other person:","options":["Says bye and hangs up","Says bye warmly","Wishes the call was longer","Says 'let's do this again soon'"],"weight":[1,2,3,4]},
+  {"id":130,"question":"You say something serious in a light conversation. People:","options":["Move on fast","Pause briefly","Stop and reflect","Take it with them after"],"weight":[1,2,3,4]},
+  {"id":131,"question":"You arrive somewhere with no prior information. You:","options":["Wait to see what's happening","Ask someone nearby","Figure it out by watching","Look like you already knew"],"weight":[1,2,3,4]},
+  {"id":132,"question":"You meet someone influential. You feel:","options":["Intimidated","A little nervous","Excited but calm","Like they should be the one impressed"],"weight":[1,2,3,4]},
+  {"id":133,"question":"You stand in a crowd of strangers. You feel:","options":["Small","Neutral","Present","Like you belong more than most"],"weight":[1,2,3,4]},
+  {"id":134,"question":"Someone stares at you for too long. You:","options":["Look away","Fidget slightly","Hold the look briefly","Hold it until they look away"],"weight":[1,2,3,4]},
+  {"id":135,"question":"You wear sunglasses indoors. You look:","options":["Odd","Like you forgot to take them off","Like you have a reason","Like it was always the move"],"weight":[1,2,3,4]},
+  {"id":136,"question":"You get to a networking event and know no one. You:","options":["Stay close to the food","Introduce yourself to one person","Work the room slowly","Leave with at least five contacts"],"weight":[1,2,3,4]},
+  {"id":137,"question":"You say very little and people still gravitate toward you. You think:","options":["That's unusual","Maybe I give off something","It's the energy","Of course they do"],"weight":[1,2,3,4]},
+  {"id":138,"question":"You are asked to lead something with no notice. You:","options":["Freeze and decline","Accept nervously","Accept and figure it out","Accept and take charge immediately"],"weight":[1,2,3,4]},
+  {"id":139,"question":"You speak softly. People:","options":["Ask you to repeat yourself","Lean in slightly","Go quieter to hear you","Silence the room so they can hear you"],"weight":[1,2,3,4]},
+  {"id":140,"question":"You give someone advice. They:","options":["Thank you and move on","Consider it","Follow it","Tell you it changed something"],"weight":[1,2,3,4]},
+  {"id":141,"question":"You are in a photo with someone well-known. People ask:","options":["Where the photo was taken","Who the other person is","How you two know each other","How you got them to take a photo with you"],"weight":[1,2,3,4]},
+  {"id":142,"question":"You correct someone politely. They:","options":["Get defensive","Accept it stiffly","Accept it gracefully","Thank you for it"],"weight":[1,2,3,4]},
+  {"id":143,"question":"You are at the center of a social circle for the evening. You feel:","options":["Overwhelmed","Okay","Natural","Like this is exactly where you belong"],"weight":[1,2,3,4]},
+  {"id":144,"question":"You walk in wearing something simple. People say:","options":["Nothing","You look nice","You look great","You somehow always look like that"],"weight":[1,2,3,4]},
+  {"id":145,"question":"You leave a first meeting. The other person thinks:","options":["That was quick","Nice enough","I'd like to see them again","I want them in my life"],"weight":[1,2,3,4]},
+  {"id":146,"question":"You order the same thing as someone else. They:","options":["Don't care","Say 'same'","Smile and say 'great taste'","Take it as a sign"],"weight":[1,2,3,4]},
+  {"id":147,"question":"You disagree with the group consensus. You:","options":["Stay quiet","Hint at disagreement","Say you see it differently","Say exactly what you think and own it"],"weight":[1,2,3,4]},
+  {"id":148,"question":"You are alone at an event and someone approaches you. You:","options":["Hope the conversation ends quickly","Have a short chat","Engage genuinely","Hold court for the next 30 minutes"],"weight":[1,2,3,4]},
+  {"id":149,"question":"You give feedback. The person receiving it:","options":["Defends themselves","Quietly listens","Nods and takes notes","Thanks you for being honest"],"weight":[1,2,3,4]},
+  {"id":150,"question":"You get to a place early. You look:","options":["Like you got the time wrong","Like you're punctual","Like you're always early on purpose","Like you were waiting to receive people"],"weight":[1,2,3,4]},
+  {"id":151,"question":"You give someone your undivided attention. They feel:","options":["Slightly uncomfortable","Heard","Seen","Like the most important person in the room"],"weight":[1,2,3,4]},
+  {"id":152,"question":"You pause before answering a question. People:","options":["Fill the silence","Wait awkwardly","Wait patiently","Hold their breath for your answer"],"weight":[1,2,3,4]},
+  {"id":153,"question":"You wear a simple white t-shirt. You look:","options":["Plain","Fine","Clean and put-together","Like you invented the white t-shirt"],"weight":[1,2,3,4]},
+  {"id":154,"question":"You make a bold statement. People:","options":["Push back immediately","Look surprised","Go quiet to process","Agree before you've finished the sentence"],"weight":[1,2,3,4]},
+  {"id":155,"question":"You sit with your arms crossed. You look:","options":["Closed off","Like you're thinking","Cool","Like you're deciding whether they're worthy of your time"],"weight":[1,2,3,4]},
+  {"id":156,"question":"You are described as 'mysterious'. You take it as:","options":["An insult — you want to be understood","Okay but you'd prefer clear","A natural part of who you are","Correct — some things aren't meant for everyone"],"weight":[1,2,3,4]},
+  {"id":157,"question":"Someone gives you a task and says 'I trust you with this'. You feel:","options":["Pressure","Motivated","Ready","Of course — who else would they ask"],"weight":[1,2,3,4]},
+  {"id":158,"question":"You look tired but still show up. People notice:","options":["You look off today","Nothing different","You still look good tired","You still somehow pull it together"],"weight":[1,2,3,4]},
+  {"id":159,"question":"You write something down in front of others. They:","options":["Don't care","Glance over","Wonder what you wrote","Ask to read it after"],"weight":[1,2,3,4]},
+  {"id":160,"question":"You are asked to introduce yourself. You:","options":["Keep it very short","Give the basics","Give a line they remember","Leave them wanting to know more"],"weight":[1,2,3,4]},
+  {"id":161,"question":"You walk into a bookstore. Staff:","options":["Ignore you","Offer help when nearby","Offer help right away","Ask what you're working on"],"weight":[1,2,3,4]},
+  {"id":162,"question":"You apologize for something. People:","options":["Accept it formally","Accept it briefly","Accept it warmly","Say 'please don't apologize'"],"weight":[1,2,3,4]},
+  {"id":163,"question":"You thank someone. They:","options":["Say 'no problem'","Smile and say 'of course'","Seem genuinely happy you noticed","Say it was an honor"],"weight":[1,2,3,4]},
+  {"id":164,"question":"You raise a concern in a group. People:","options":["Dismiss it","Hear it politely","Take it seriously","Act on it immediately"],"weight":[1,2,3,4]},
+  {"id":165,"question":"You tell someone what you want clearly. They:","options":["Push back","Hesitate then comply","Agree easily","Go out of their way to make it happen"],"weight":[1,2,3,4]},
+  {"id":166,"question":"You meet someone new and they immediately say you're interesting. You:","options":["Deny it awkwardly","Say thank you shyly","Accept it naturally","Say 'you're just now noticing?'"],"weight":[1,2,3,4]},
+  {"id":167,"question":"You show up to something overdressed. You:","options":["Feel out of place all night","Adjust your demeanor","Own it fully","Set the new standard for the event"],"weight":[1,2,3,4]},
+  {"id":168,"question":"People who barely know you talk about you. They usually say:","options":["'I've seen them around'","'They seem nice'","'There's something about them'","'You need to meet them'"],"weight":[1,2,3,4]},
+  {"id":169,"question":"You wave goodbye. People wave back:","options":["As a reflex","With a smile","With a real smile","Wishing you'd stay longer"],"weight":[1,2,3,4]},
+  {"id":170,"question":"You speak at a low volume. People:","options":["Keep talking","Quiet down a little","Get closer","Silence the whole conversation"],"weight":[1,2,3,4]},
+  {"id":171,"question":"You get told you're intimidating. You feel:","options":["Bad about it","Confused","Unbothered","Unsurprised"],"weight":[1,2,3,4]},
+  {"id":172,"question":"You walk past someone you argued with. You:","options":["Look away fast","Look straight ahead","Acknowledge them calmly","Look straight at them and keep walking"],"weight":[1,2,3,4]},
+  {"id":173,"question":"You choose to sit alone by choice. Others think:","options":["They didn't get invited","They're antisocial","They wanted peace","They chose the best seat in the room"],"weight":[1,2,3,4]},
+  {"id":174,"question":"You stand next to someone more popular. People notice:","options":["Just the popular person","Both of you equally","You more than expected","Both but wonder who you are"],"weight":[1,2,3,4]},
+  {"id":175,"question":"You give your opinion without being asked. People:","options":["Feel it's unwanted","Accept it politely","Appreciate it","Ask for more"],"weight":[1,2,3,4]},
+  {"id":176,"question":"You end a meeting. The last thing people remember:","options":["The time it ended","The main points","Something you said","The way you said it"],"weight":[1,2,3,4]},
+  {"id":177,"question":"You walk into a museum. You look like:","options":["A tourist","A visitor","Someone who appreciates art","Someone who could narrate the exhibition"],"weight":[1,2,3,4]},
+  {"id":178,"question":"You are the only quiet person at a loud table. You look:","options":["Uncomfortable","Reserved","Thoughtful","Like the most interesting one there"],"weight":[1,2,3,4]},
+  {"id":179,"question":"You get told your vibe is 'different'. You take it as:","options":["An insult","A neutral observation","A compliment","An obvious fact"],"weight":[1,2,3,4]},
+  {"id":180,"question":"You make a decision that surprises everyone. Their reaction is:","options":["Doubt","Concern","Respect","'Why didn't I think of that'"],"weight":[1,2,3,4]},
+  {"id":181,"question":"You disagree with an expert in public. They:","options":["Dismiss you","Seem slightly irritated","Engage seriously","Pause and reconsider"],"weight":[1,2,3,4]},
+  {"id":182,"question":"You show up with no makeup or styled hair. People say:","options":["Nothing","'Are you tired?'","'You still look good'","'How do you always look like that'"],"weight":[1,2,3,4]},
+  {"id":183,"question":"You are asked for a favor. You say yes. The person feels:","options":["Relieved you said yes","Happy","Lucky","Like they hit the jackpot"],"weight":[1,2,3,4]},
+  {"id":184,"question":"You get on a plane and sit down. Your row neighbor:","options":["Puts headphones in right away","Stays quiet","Says hello","Strikes up a conversation"],"weight":[1,2,3,4]},
+  {"id":185,"question":"You recommend a restaurant. People:","options":["Consider it","Try it eventually","Go that week","Ask you to join them"],"weight":[1,2,3,4]},
+  {"id":186,"question":"You are in a group photo and blink. People say:","options":["'We'll retake it'","'We can crop you in'","'You still looked good though'","'Honestly it still worked'"],"weight":[1,2,3,4]},
+  {"id":187,"question":"You start telling a story mid-bite. People:","options":["Wait impatiently","Wait politely","Wait with full interest","Put their own food down to listen"],"weight":[1,2,3,4]},
+  {"id":188,"question":"You speak about your passion. People:","options":["Listen politely","Seem interested","Want to ask questions","Leave wanting to try it too"],"weight":[1,2,3,4]},
+  {"id":189,"question":"You say something funny without trying. People:","options":["Give a polite smile","Chuckle","Actually laugh","Lose it completely"],"weight":[1,2,3,4]},
+  {"id":190,"question":"You get on a video call. The first thing someone says is:","options":["'Hi'","'Hey, you look good'","'Love the background'","'Every call with you is the best part of my week'"],"weight":[1,2,3,4]},
+  {"id":191,"question":"You describe your goals. People feel:","options":["It's ambitious","It's doable","Inspired","Like they need to rethink their own goals"],"weight":[1,2,3,4]},
+  {"id":192,"question":"You sit quietly in the back of a room. People:","options":["Don't notice","Glance over eventually","Feel aware of your presence","Can't figure out why they keep looking back"],"weight":[1,2,3,4]},
+  {"id":193,"question":"You give someone a task. They:","options":["Say they'll try","Commit but with doubts","Commit confidently","Ask nothing — just do it"],"weight":[1,2,3,4]},
+  {"id":194,"question":"You step outside after a long time alone. You feel:","options":["Rusty and awkward","A bit off but okay","Back like you never left","Like the world has been waiting"],"weight":[1,2,3,4]},
+  {"id":195,"question":"You change your mind publicly. People:","options":["Find it inconsistent","Accept it","Respect it","Follow the new direction"],"weight":[1,2,3,4]},
+  {"id":196,"question":"You show up exactly on time. People say:","options":["'Oh you made it'","'Good timing'","'You're always on time'","'We knew you'd be here at exactly this moment'"],"weight":[1,2,3,4]},
+  {"id":197,"question":"You are quiet during a debate. When you speak, people:","options":["Keep debating","Pause momentarily","Go quiet and listen","Act like the debate just started"],"weight":[1,2,3,4]},
+  {"id":198,"question":"You get tagged in a post. People in the comments say:","options":["Nothing specific about you","'Hi' to you","Something nice about you","'Of course they're in this'"],"weight":[1,2,3,4]},
+  {"id":199,"question":"You walk through a door someone holds for you. You:","options":["Look down and say thanks","Say thanks without looking","Make eye contact and thank them","Thank them like you expected it"],"weight":[1,2,3,4]},
+  {"id":200,"question":"You leave a room. People:","options":["Don't notice immediately","Notice after a minute","Feel it right away","Say the energy left with you"],"weight":[1,2,3,4]}
 ]
