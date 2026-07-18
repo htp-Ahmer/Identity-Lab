@@ -81,46 +81,24 @@ export default function Result() {
   };
 
   const handleInstagramShare = async () => {
-  if (!shareImage) return;
+  const url = window.location.href;
 
-  try {
-    const response = await fetch(shareImage);
-    const blob = await response.blob();
-
-    const file = new File(
-      [blob],
-      `identity-lab-${checkerId}-result.png`,
-      { type: "image/png" }
-    );
-
-    // Android + iPhone file sharing
-    if (navigator.share && navigator.canShare({ files: [file] })) {
+  if (navigator.share) {
+    try {
       await navigator.share({
-        files: [file],
         title: "My Identity Lab Result",
+        text: "Check out my Identity Lab result!",
+        url: url,
       });
       return;
-    }
-
-    // Fallback for Android browsers
-    const link = window.location.href;
-
-    if (navigator.share) {
-      await navigator.share({
-        title: "My Identity Lab Result",
-        text: "Check my Identity Lab result!",
-        url: link,
-      });
-    } else {
-      await navigator.clipboard.writeText(link);
-      alert("Result link copied!");
-    }
-
-  } catch (err) {
-    if ((err as Error).name !== "AbortError") {
-      console.error("Share failed:", err);
+    } catch (err) {
+      console.log(err);
     }
   }
+
+  // fallback
+  await navigator.clipboard.writeText(url);
+  alert("Result link copied!");
 };
 
   const handleSnapchatShare = async () => {
