@@ -81,27 +81,34 @@ export default function Result() {
   };
 
   const handleInstagramShare = async () => {
-    if (!shareImage) return;
-    try {
-      const res = await fetch(shareImage);
-      const blob = await res.blob();
-      const file = new File([blob], `identity-lab-${checkerId}-result.png`, { type: "image/png" });
+  if (!shareImage) return;
 
-      if (navigator.canShare && navigator.canShare({ files: [file] })) {
-        // Native share sheet → user picks Instagram → lands directly in Stories with image
-        await navigator.share({ files: [file], title: "My Identity Lab Result" });
-      } else {
-        // Desktop / unsupported browser fallback: download then open Instagram
-        handleDownloadImage();
-        setTimeout(() => window.open("https://www.instagram.com/", "_blank"), 600);
-      }
-    } catch (err) {
-      if ((err as Error).name !== "AbortError") {
-        // User didn't cancel — fall back to plain download
-        handleDownloadImage();
-      }
+  try {
+    const res = await fetch(shareImage);
+    const blob = await res.blob();
+    const file = new File(
+      [blob],
+      `identity-lab-${checkerId}-result.png`,
+      { type: "image/png" }
+    );
+
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      await navigator.share({
+        files: [file],
+        title: "My Identity Lab Result",
+        text: "Check out my Identity Lab result!"
+      });
+    } else {
+      // Browser doesn't support sharing files
+      handleDownloadImage();
     }
-  };
+  } catch (err) {
+    if ((err as Error).name !== "AbortError") {
+      handleDownloadImage();
+    }
+  }
+};
+  
 
   const handleSnapchatShare = async () => {
     if (!shareImage) return;
@@ -176,12 +183,10 @@ export default function Result() {
                 Share Result
               </button>
             </DialogTrigger>
-            <DialogContent className="bg-[#111111] border-[#2a2a2a] text-white rounded-[32px] sm:max-w-md p-0 overflow-hidden shadow-2xl">
+           <DialogContent className="bg-[#111111] border-[#2a2a2a] text-white rounded-[32px] sm:max-w-md max-h-[90vh] overflow-y-auto shadow-2xl">
               <DialogTitle className="sr-only">Share Result</DialogTitle>
               <div className="relative p-6 pt-8 pb-8 flex flex-col items-center">
-                <DialogClose className="absolute right-6 top-6 text-gray-400 hover:text-white transition-colors">
-                  <X size={24} />
-                </DialogClose>
+            
                 <h2 className="text-2xl font-bold mb-6 text-center">Share Your Identity</h2>
                 {shareImage ? (
                   <div className="w-48 rounded-xl overflow-hidden border border-[#2a2a2a] shadow-lg mb-8 bg-black">
@@ -196,12 +201,8 @@ export default function Result() {
                 <div className="grid grid-cols-2 gap-3 w-full">
                   <button onClick={handleInstagramShare} className="col-span-2 bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] hover:opacity-90 text-white font-bold py-4 rounded-xl flex items-center justify-center gap-2 transition-opacity">
                     <Instagram size={20} />
-                    Share to IG Story
-                  </button>
-                  <button onClick={handleSnapchatShare} className="col-span-2 bg-[#FFFC00] hover:bg-[#FFF800] text-black font-bold py-4 rounded-xl flex items-center justify-center gap-2 transition-colors">
-                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12.016 0C7.29 0 3.86 3.652 3.86 8.528c0 1.25.26 2.458.745 3.513-.157.172-.456.284-.906.347C1.516 12.695.4 13.568.4 14.51c0 .502.268.966.726 1.267.318.21.734.333 1.182.355.228 1.144 1.282 2.052 2.593 2.115.132.006.262-.008.384-.035.795.534 1.765.815 2.784.815 1.554 0 2.946-.664 3.947-1.741 1.002 1.077 2.394 1.741 3.948 1.741 1.018 0 1.988-.28 2.783-.814.123.027.253.041.385.035 1.31-.063 2.364-.97 2.592-2.115.45-.022.865-.145 1.184-.355.457-.301.725-.765.725-1.267 0-.941-1.116-1.815-3.3-2.122-.45-.063-.75-.175-.906-.347.485-1.055.745-2.264.745-3.513C20.173 3.652 16.742 0 12.016 0zm-3.084 6.643c1.096 0 1.983.844 1.983 1.884 0 1.04-.887 1.884-1.983 1.884-1.096 0-1.983-.844-1.983-1.884 0-1.04.887-1.884 1.983-1.884zm6.168 0c1.096 0 1.983.844 1.983 1.884 0 1.04-.887 1.884-1.983 1.884-1.096 0-1.983-.844-1.983-1.884 0-1.04.887-1.884 1.983-1.884zm-3.084 6.782c1.936 0 3.523.51 3.523 1.14 0 .63-1.587 1.14-3.523 1.14-1.935 0-3.522-.51-3.522-1.14 0-.63 1.587-1.14 3.522-1.14z"/></svg>
-                    Share to Snapchat
-                  </button>
+                    Share Result
+                  </button>             
 
                   <button onClick={handleDownloadImage} className="bg-[#222222] hover:bg-[#333333] text-white font-medium py-4 rounded-xl flex flex-col items-center justify-center gap-1 transition-colors">
                     <Download size={20} />
