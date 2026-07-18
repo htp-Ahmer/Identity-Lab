@@ -1,6 +1,26 @@
-slipped","Just scrolling","They like me","We are soulmates"],"weight":[4,2,1,3]},
-  {"id":2,"question":"Your crush leaves you on read. You think:","options":["They're busy[
-  {"id":1,"question":"Your crush looks at your story. You think:","options":["They ","They forgot","Playing hard to get","Obsessed with me"],"weight":[4,2,3,1]},
+[
+  {
+    "id": 1,
+    "question": "Your crush looks at your story. You think:",
+    "options": [
+      "They slipped",
+      "Just scrolling",
+      "They like me",
+      "We are soulmates"
+    ],
+    "weight": [4,2,1,3]
+  },
+  {
+    "id": 2,
+    "question": "Your crush leaves you on read. You think:",
+    "options": [
+      "They're busy",
+      "They forgot",
+      "Playing hard to get",
+      "Obsessed with me"
+    ],
+    "weight": [4,2,3,1]
+  },
   {"id":3,"question":"Your crush likes an old post. You think:","options":["Accident","Stalking me","In love with me","Planning our wedding"],"weight":[2,1,4,3]},
   {"id":4,"question":"Your crush breathes in your direction. You think:","options":["Basic biology","Taking my scent","Deeply attracted","Trying to merge souls"],"weight":[2,4,1,3]},
   {"id":5,"question":"Your crush posts a song with no caption. You think:","options":["They like the song","It's about someone","It's about me","It's our song now"],"weight":[3,2,1,4]},
