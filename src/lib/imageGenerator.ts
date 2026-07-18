@@ -1,4 +1,4 @@
-import QRCode from 'qrcode';
+
 import { Checker } from '../data/checkers';
 
 export async function generateResultImage(
@@ -77,26 +77,6 @@ export async function generateResultImage(
   // URL & QR Code
   ctx.font = '36px sans-serif';
   ctx.fillStyle = '#888888';
-  ctx.fillText('identitylab.app', canvas.width/2, canvas.height - 120);
-  
-  try {
-    const qrDataUrl = await QRCode.toDataURL('https://identitylab.app', { 
-      width: 180,
-      margin: 1, 
-      color: { dark: '#ffffff', light: '#00000000' } 
-    });
-    
-    const qrImg = new Image();
-    qrImg.src = qrDataUrl;
-    await new Promise((resolve, reject) => {
-      qrImg.onload = resolve;
-      qrImg.onerror = reject;
-    });
-    
-    ctx.drawImage(qrImg, canvas.width/2 - 90, canvas.height - 350, 180, 180);
-  } catch (e) {
-    console.error("QR Code generation failed", e);
-  }
   
   return canvas.toDataURL('image/png');
 }
