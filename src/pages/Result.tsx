@@ -80,25 +80,35 @@ export default function Result() {
     a.click();
   };
 
-  const handleInstagramShare = async () => {
-  const url = window.location.href;
+const handleInstagramShare = async () => {
+  if (!shareImage) return;
 
-  if (navigator.share) {
-    try {
+  try {
+    const res = await fetch(shareImage);
+    const blob = await res.blob();
+
+    const file = new File(
+      [blob],
+      `identity-lab-${checkerId}-result.png`,
+      { type: "image/png" }
+    );
+
+    if (navigator.share && navigator.canShare({ files: [file] })) {
       await navigator.share({
+        files: [file],
         title: "My Identity Lab Result",
         text: "Check out my Identity Lab result!",
-        url: url,
       });
       return;
-    } catch (err) {
-      console.log(err);
+    }
+
+    handleDownloadImage();
+
+  } catch (err) {
+    if ((err as Error).name !== "AbortError") {
+      console.error("Share failed:", err);
     }
   }
-
-  // fallback
-  await navigator.clipboard.writeText(url);
-  alert("Result link copied!");
 };
 
   const handleSnapchatShare = async () => {
